@@ -1,0 +1,11 @@
+#calculator {
+    width: 320px;
+    height: 400px;
+}
+
+@media screen and (orientation: portrait) {
+    #calculator {
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import Display from './Display';
+
 import './calculator.css';
 
 export const initialCalcState = {
@@ -13,6 +15,7 @@ const Calculator = () => {
 
   return (
     <div id="calculator">
+      <Display calcState={calcState} />
     </div>
   );
 };

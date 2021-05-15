@@ -1,0 +1,23 @@
+#display {
+    flex-grow: 1;
+    min-height: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-bottom: 15px;
+    font-family: digital;
+}
+
+#display > .row {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#input {
+    font-size: 3em;
+}

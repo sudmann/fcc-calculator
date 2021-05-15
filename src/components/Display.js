@@ -1,3 +1,5 @@
+import './display.css'
+
 const Display = (props) => (
   <div id="display">
     <div class="row" id="formula">

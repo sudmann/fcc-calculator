@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Display from './Display';
+import Buttons from './Buttons';
 
 import './calculator.css';
 
@@ -16,6 +17,7 @@ const Calculator = () => {
   return (
     <div id="calculator">
       <Display calcState={calcState} />
+      <Buttons setCalcState={setCalcState} />
     </div>
   );
 };
